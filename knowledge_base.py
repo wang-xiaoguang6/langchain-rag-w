@@ -1,5 +1,5 @@
 """
-知识库
+知识库，切分和向量化
 """
 from dotenv import load_dotenv
 import os
