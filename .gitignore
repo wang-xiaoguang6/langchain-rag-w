@@ -9,7 +9,7 @@ env/
 vector_db/
 chat_history/
 data/
-
+chroma_db/
 .idea/
 .vscode/
 .DS_Store
