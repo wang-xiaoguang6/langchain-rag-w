@@ -30,7 +30,7 @@
 
 ---
 
-### 2. knowledge_base.py - 知识库服务
+### 2. knowledge_base.py - 知识库服务，负责文本分割和向量化
 
 **文件路径**: `knowledge_base.py`
 
@@ -56,14 +56,14 @@
 **核心逻辑**:
 
 1. 检查文本内容的 MD5 是否已存在（去重）
-2. 如果文本长度超过阈值，使用 `RecursiveCharacterTextSplitter` 进行分割
+2. 如果文本长度超过阈值，使用 `RecursiveCharacterTextSplitter` 进行分割（chunk）
 3. 添加元数据（来源文件、创建时间、操作人）
 4. 将分割后的文本块存入 Chroma 向量库
 5. 保存 MD5 到本地文件
 
 ---
 
-### 3. vector_stores.py - 向量存储服务
+### 3. vector_stores.py - 向量存储服务，负责向量检索的封装
 
 **文件路径**: `vector_stores.py`
 

@@ -46,7 +46,7 @@ class RagService(object):
     def __get_chain(self):
         """获取最终的执行链"""
 
-        retriever = self.vector_service.get_retriever()
+        retriever = self.vector_service.get_retriever()# 向量检索器
 
         def format_document(docs: list[Document]):
             if not docs:
