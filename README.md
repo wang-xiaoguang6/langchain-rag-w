@@ -3,6 +3,15 @@
 ## 一、项目概述
 
 本项目是一个基于 Streamlit 的本地知识库上传与 RAG（检索增强生成）问答项目。系统通过向量数据库存储知识文档，并结合大语言模型实现智能问答功能。
+###  示例
+
+<p align="center">
+  <img src="./assets/1.png" width="700" alt="智能客服聊天界面示例1">
+</p>
+
+<p align="center">
+  <img src="./assets/2.png" width="700" alt="智能客服聊天界面示例2">
+</p>
 
 ## 二、核心模块说明
 
